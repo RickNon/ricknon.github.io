@@ -2,11 +2,28 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>初めてのウェブサイト</title>
+    <title>ウェブサイト</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>こんにちは、GitHub Pages！</h1>
-    <p>これは私の最初のウェブサイトです。</p>
+    <!-- Language selection -->
+    <select id="languageSwitcher">
+        <option value="ja">日本語</option>
+        <option value="en">English</option>
+    </select>
+
+    <!-- Japanese content -->
+    <div class="lang ja">
+        <h1>こんにちは</h1>
+        <p>これは初めてのウェブサイトです．</p>
+    </div>
+
+    <!-- English content -->
+    <div class="lang en" style="display:none;">
+        <h1>Hello, World!</h1>
+        <p>This is my first website!</p>
+    </div>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
