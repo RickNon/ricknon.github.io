@@ -1,7 +1,8 @@
 ---
 layout: default
 title: About
-permalink: /about/
+language: en
+permalink: /en/about/
 ---
 
 # 自己紹介

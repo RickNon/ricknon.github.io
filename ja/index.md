@@ -1,8 +1,9 @@
 ---
 layout: default
 title: home
-lang: en
+lang: ja
+permalink: /ja/
 ---
 
-# This is home
+# ホーム
 This is football

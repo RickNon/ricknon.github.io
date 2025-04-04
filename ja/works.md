@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Works
-permalink: /works/
+language: ja
+permalink: /ja/works/
 ---
 
 # 業績
