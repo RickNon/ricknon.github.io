@@ -1,5 +1,5 @@
 <div class="works">
-    <h1>
+    <h1 style="color: #00008b">
         {% if page.lang == 'ja' %}
             業績
         {% else %}
@@ -7,7 +7,7 @@
         {% endif %}
     </h1>
     <p></p>
-    <h2>
+    <h2 style="color: #00008b">
         {% if page.lang == 'ja' %}
             学術論文
         {% else %}
@@ -27,7 +27,7 @@
         {% endfor %}
     </ol>
     <p></p>
-    <h2>
+    <h2 style="color: #00008b">
         {% if page.lang == 'ja' %}
             学会発表
         {% else %}
@@ -47,7 +47,7 @@
         {% endfor %}
     </ol>
     <p></p>
-    <h2>
+    <h2 style="color: #00008b">
         {% if page.lang == 'ja' %}
             シンポジウム
         {% else %}
@@ -65,4 +65,25 @@
                 </div>
             </li>
         {% endfor %}
-<!-- </div> -->
+    </ol>
+    <p></p>
+    <h2 style="color: #00008b">
+        {% if page.lang == 'ja' %}
+            学位論文
+        {% else %}
+            Dissertations
+        {% endif %}
+    </h2>
+    {% assign disse = site.data.publications.dissertations %}
+    <ol class="pub-list" reversed start="{{ disse | size }}">
+        {% for pub in disse %}
+            <li>
+                <span class="pub-title">{{ pub.title[page.lang] }}</span>
+                <div class="pub-details">
+                    <span class="pub-authors">{{ pub.authors[page.lang] }}</span><br>
+                    <span class="pub-meta">{{ pub.journal[page.lang] }}, {{ pub.year }}</span>
+                </div>
+            </li>
+        {% endfor %}
+    </ol>
+</div>
