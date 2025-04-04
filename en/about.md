@@ -7,6 +7,4 @@ permalink: /en/about/
 
 {% include profile.html %}
 
-# Profile
-
-hello
+{% include contents/about.html %}

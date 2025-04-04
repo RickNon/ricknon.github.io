@@ -1,6 +1,6 @@
 // Header styles
 .site-header {
-    background-color: #00bfff;
+    background-color: #1e90ff;
     padding: 1rem 0;
     border-bottom: 2px solid #ccc;
   
@@ -65,7 +65,7 @@ main {
 
     p {
         line-height: 1.8;
-        margin-bottom: 1rem;
+        margin-bottom: 0.5rem;
     }
 
 
@@ -79,6 +79,13 @@ main {
         height: auto;
         display: block;
         margin: 1.5rem auto;
+    }
+
+    .profile-title {
+        color: black;
+        font-size: 1.8rem;
+        font-weight: bold;
+        margin: 1rem 0;
     }
 
     .profile-section {
@@ -186,6 +193,19 @@ main {
                     margin-top: 0;
                     margin-left: 1.2rem;
                     color: #333;
+                }
+            }
+
+            ul {
+                list-style-type: disc;
+                list-style-position: outside;
+                padding-left: 1rem;
+                margin-bottom: 2rem;
+
+                .about-title {
+                    font-size: 1.0rem;
+                    font-weight: bold;
+                    display: inline;
                 }
             }
         }

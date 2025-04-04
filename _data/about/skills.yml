@@ -1,0 +1,35 @@
+- title: Python
+  skill: 
+    ja: 研究や業務で多く使用．ROSやアルゴリズム開発，データ処理等で使用経験がある．
+    en: Used in research and work. Experience in using it for ROS, algorithm development, and data processing etc.
+  year: 2020～
+
+- title: C/C++
+  skill: 
+    ja: 主に研究室内メカトロ演習で使用．Pythonの方が得意．
+    en: Mainly used in the Mechatronics Exercise in the laboratory. I am better at Python.
+  year: 2019～
+
+- title: Swift
+  skill: 
+    ja: 業務でiPad用アプリ開発に使用．StoryboardによるUI設計も可能．
+    en: Used in work for iPad app development. UI design using Storyboard is also possible.
+  year: 2021～
+
+- title: ROS/ROS2
+  skill: 
+    ja: 研究室内メカトロ演習やインターンでROSを使用．ROS2の勉強中．
+    en: Used ROS in the Mechatronics Exercise in the laboratory and during internship. Studying ROS2.
+  year: 2023～
+
+- title: 3D CAD
+  skill: 
+    ja: 研究室内メカトロ演習で使用．主にFusion360を使用．
+    en: Used in the Mechatronics Exercise in the laboratory. Mainly using Fusion360.
+  year: 2023～
+
+- title: Others
+  skill: 
+    ja: ruby, GAS, R, JavaScript，Git，Docker など．
+    en: ruby, GAS, R, JavaScript, Git, Docker etc.
+  year: 
