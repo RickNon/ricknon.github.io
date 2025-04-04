@@ -5,4 +5,4 @@ lang: en
 ---
 
 # This is home
-This is foorball
+This is football

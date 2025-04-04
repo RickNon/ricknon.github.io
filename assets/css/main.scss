@@ -1,0 +1,18 @@
+---
+---
+
+@charset "utf-8";
+@use "sass:color";
+
+// Font
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700&family=Roboto:wght@400;700&display=swap');
+$base-font-family: 'M PLUS Rounded 1c', 'Roboto', sans-serif !default;
+$base-font-size: 16px !default;
+$base-font-weight: 400 !default;
+$small-fontsize: $base-font-size * 0.875 !default;
+$base-line-height: 1.5 !default;
+
+$page-width: 600px !default;
+
+@import "base";
+@import "layout";
