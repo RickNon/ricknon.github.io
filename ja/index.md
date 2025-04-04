@@ -5,5 +5,25 @@ lang: ja
 permalink: /ja/
 ---
 
-# ホーム
-This is football
+<div class="main">
+    <div class="profile-section">
+        <img src="/assets/images/dog_shibainu_black.png" alt="Profile Picture" class="profile-img">
+        <div class="profile-text">
+            <h2>野々村 陸大 / Rikuto Nonomura</h2>
+            <p>神戸大学大学院 工学研究科 博士前期課程</p>
+            <p>研究分野：環境認識，自律移動ロボット</p>
+            <div class="social-icons">
+                <div class="social-item">
+                    <i class="fab fa-github"></i>
+                    <a href="https://github.com/RickNon" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
+                <div class="social-item">
+                    <i class="fab fa-x-twitter"></i> 
+                    <a href="https://twitter.com/ricknon22" target="_blank" rel="noopener noreferrer">X/Twitter</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+# aaa
