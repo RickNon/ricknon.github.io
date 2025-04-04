@@ -13,3 +13,27 @@ a {
         text-decoration: none;
     }
 }
+
+// works
+.pub-list {
+    list-style: decimal inside;
+    padding-left: 0;
+    margin: 2rem 0;
+
+    li {
+        margin-bottom: 2rem;
+
+        .pub-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            display: inline;
+        }
+        
+        .pub-details {
+            display: block;
+            margin-top: 0.3rem;
+            margin-left: 1.2rem;
+            color: #333;
+        }
+    }
+}

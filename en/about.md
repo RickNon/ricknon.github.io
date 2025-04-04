@@ -1,10 +1,12 @@
 ---
 layout: default
 title: About
-language: en
+lang: en
 permalink: /en/about/
 ---
 
-# 自己紹介
+{% include profile.html %}
 
-本文
+# Profile
+
+hello

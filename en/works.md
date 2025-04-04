@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Works
-language: en
+lang: en
 permalink: /en/works/
 ---
 
-# 業績
+{% include profile.html %}
 
-もろもろ
+{% include works.html %}

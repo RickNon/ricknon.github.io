@@ -1,0 +1,21 @@
+- title:
+    ja: 近接点の幾何学的性質に基づく自由領域の抽出と二次元グラフ地図構築
+    en: Extraction of Free Space and Construction of 2D Graph Maps Based on Geometric Properties of Proximity Points
+  authors:
+    ja: 野々村陸大, 田﨑勇一, 永野光, 横小路泰義
+    en: R.Nonomura, Y.Tazaki, H.Nagano, Y.Yokokohji
+  journal:
+    ja: ロボティクス・メカトロニクス講演会
+    en: ROBOMECH Conference
+  year: 2024
+
+- title:
+    ja: Growing Neural Gasに基づく屋外環境のトポロジカル地図の構築
+    en: Topological Map Construction of Outdoor Environments Based on Growing Neural Gas
+  authors:
+    ja: 野々村陸大, 田﨑勇一, 永野光, 横小路泰義
+    en: R.Nonomura, Y.Tazaki, H.Nagano, Y.Yokokohji
+  journal:
+    ja: 第41回日本ロボット学会学術講演会
+    en: The 41st Annual Conference of the Robotics Society of Japan
+  year: 2023

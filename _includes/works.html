@@ -1,0 +1,68 @@
+<div class="works">
+    <h1>
+        {% if page.lang == 'ja' %}
+            業績
+        {% else %}
+            Works
+        {% endif %}
+    </h1>
+    <p></p>
+    <h2>
+        {% if page.lang == 'ja' %}
+            学術論文
+        {% else %}
+            Journal Papers
+        {% endif %}
+    </h2>
+    {% assign pubs = site.data.publications.journals %}
+    <ol class="pub-list" reversed start="{{ pubs | size }}">
+        {% for pub in pubs %}
+            <li>
+            <span class="pub-title">{{ pub.title[page.lang] }}</span>
+            <div class="pub-details">
+                <span class="pub-authors">{{ pub.authors[page.lang] }}</span><br>
+                <span class="pub-meta">{{ pub.journal[page.lang] }}, {{ pub.year }}</span>
+            </div>
+            </li>
+        {% endfor %}
+    </ol>
+    <p></p>
+    <h2>
+        {% if page.lang == 'ja' %}
+            学会発表
+        {% else %}
+            Conference Papers
+        {% endif %}
+    </h2>
+    {% assign confs = site.data.publications.conferences %}
+    <ol class="pub-list" reversed start="{{ confs | size }}">
+        {% for pub in confs %}
+            <li>
+                <span class="pub-title">{{ pub.title[page.lang] }}</span>
+                <div class="pub-details">
+                    <span class="pub-authors">{{ pub.authors[page.lang] }}</span><br>
+                    <span class="pub-meta">{{ pub.journal[page.lang] }}, {{ pub.year }}</span>
+                </div>
+            </li>
+        {% endfor %}
+    </ol>
+    <p></p>
+    <h2>
+        {% if page.lang == 'ja' %}
+            シンポジウム
+        {% else %}
+            Symposium
+        {% endif %}
+    </h2>
+    {% assign sympos = site.data.publications.symposiums %}
+    <ol class="pub-list" reversed start="{{ sympos | size }}">
+        {% for pub in sympos %}
+            <li>
+                <span class="pub-title">{{ pub.title[page.lang] }}</span>
+                <div class="pub-details">
+                    <span class="pub-authors">{{ pub.authors[page.lang] }}</span><br>
+                    <span class="pub-meta">{{ pub.journal[page.lang] }}, {{ pub.year }}</span>
+                </div>
+            </li>
+        {% endfor %}
+<!-- </div> -->
