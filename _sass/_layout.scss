@@ -133,7 +133,118 @@ main {
         }
     }
 }
+
+// works
+.pub-list {
+    list-style: decimal inside;
+    padding-left: 0;
+    margin: 2rem 0;
+
+    li {
+        margin-bottom: 2rem;
+
+        .pub-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            display: inline;
+        }
+        
+        .pub-details {
+            display: block;
+            margin-top: 0.3rem;
+            margin-left: 1.2rem;
+            color: #333;
+        }
+    }
+}  
+
+// about
+.about-section {
+    display: block;
+    line-height: 1.8;
   
+    .about-container {
+      display: block;
+      margin-bottom: 2rem;
+
+        .about-list {
+            list-style: decimal inside;
+            padding-left: 0;
+            margin: 2rem 0;
+        
+            li {
+                margin-bottom: 2rem;
+        
+                .about-title {
+                    font-size: 1.0rem;
+                    font-weight: bold;
+                    display: inline;
+                }
+                
+                .about-details {
+                    display: block;
+                    margin-top: 0;
+                    margin-left: 1.2rem;
+                    color: #333;
+                }
+            }
+        }
+
+        .about-table {
+            margin-left: 1.5rem;
+        }
+    }
+
+    .highlight {
+        font-weight: bold;
+    }
+  
+    h1 h2 {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+    }
+  
+    p ul table {
+      margin-bottom: 1rem;
+    }
+
+    p {
+        margin-left: 1rem;
+    }
+
+    li {
+      margin-left: 1rem;
+    }
+  
+    a {
+      color: #0077cc;
+      text-decoration: none;
+  
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+  
+      th td {
+        border: 1px solid #ccc;
+        padding: 0.6rem;
+        text-align: left;
+      }
+  
+      th {
+        background-color: #f5f5f5;
+      }
+  
+      tr:nth-child(even) {
+        background-color: #fafafa;
+      }
+    }
+  }
   
 
 // Footer styles

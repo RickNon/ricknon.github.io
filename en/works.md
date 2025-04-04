@@ -7,4 +7,4 @@ permalink: /en/works/
 
 {% include profile.html %}
 
-{% include works.html %}
+{% include contents/works.html %}

@@ -7,6 +7,4 @@ permalink: /ja/about/
 
 {% include profile.html %}
 
-# プロフィール
-
-本文
+{% include contents/about.html %}
