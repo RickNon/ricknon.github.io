@@ -22,12 +22,6 @@
     en: Used ROS in the Mechatronics Exercise in the laboratory and during internship. Studying ROS2.
   year: 2023～
 
-- title: 3D CAD
-  skill: 
-    ja: 研究室内メカトロ演習で使用．主にFusion360を使用．
-    en: Used in the Mechatronics Exercise in the laboratory. Mainly using Fusion360.
-  year: 2023～
-
 - title: Others
   skill: 
     ja: ruby, GAS, R, JavaScript，Git，Docker など．

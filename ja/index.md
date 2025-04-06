@@ -7,6 +7,4 @@ permalink: /ja/
 
 {% include profile.html %}
 
-# 最近の活動
-
-じゃんけんに勝ちました．
+{% include contents/index.html %}
