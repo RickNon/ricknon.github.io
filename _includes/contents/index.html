@@ -32,4 +32,22 @@
         </table>
         {% endif %}
     </div>
+
+    <div class="index-container">
+        {% if page.lang == 'ja' %}
+        <h2 style="color: #00008b">最近の投稿</h2>
+        {% else %}
+        <h2 style="color: #00008b">Recent Posts</h2>
+        {% endif %}
+        <!-- <a class="twitter-timeline" 
+            href="https://twitter.com/ricknon22" 
+            data-tweet-limit="3" 
+            data-lang="ja"
+            data-chrome="noheader nofooter"
+            data-width="100%" 
+            data-height="500">
+            Tweets by @ricknon22
+        </a> -->
+        <a class="twitter-timeline" href="https://twitter.com/ricknon22?ref_src=twsrc%5Etfw">Tweets by ricknon22</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
 </section>
