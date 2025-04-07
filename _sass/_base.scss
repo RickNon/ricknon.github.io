@@ -60,8 +60,13 @@ table {
 }
 
 // twitter
-.tweet-tweet {
-    margin-left: 1rem;
-    margin-right: 1rem;
-    margin-top: 1rem;
+.twitter-container {
+    margin: 1rem 1rem;
+    padding: 1rem;
+
+    .tweet-tweet {
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 1rem;
+    }
 }
