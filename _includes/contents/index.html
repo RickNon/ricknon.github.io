@@ -2,34 +2,38 @@
     <div class="index-container">
         {% if page.lang == 'ja' %}
         <h2 style="color: #00008b">最近の活動</h2>
-        <table class="table">
-            <thead>
-            <tr>
-                <th>年月</th>
-                <th>活動内容</th>
-            </tr>
-            </thead>
-            <tbody>
-                <tr><td>2025.3</td><td>学内の研究経過報告会で発表しました．</td></tr>
-                <tr><td>2025.1</td><td>中之島ロボットチャレンジシンポジウムにて発表しました．</td></tr>
-                <tr><td>2024.11</td><td>中之島ロボットチャレンジエクストラチャレンジ@ATCに参加しました．</td></tr>
-            </tbody>
-        </table>
+        <div class="table-container">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>年月</th>
+                    <th>活動内容</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr><td>2025.3</td><td>学内の研究経過報告会で発表しました．</td></tr>
+                    <tr><td>2025.1</td><td>中之島ロボットチャレンジシンポジウムにて発表しました．</td></tr>
+                    <tr><td>2024.11</td><td>中之島ロボットチャレンジエクストラチャレンジ@ATCに参加しました．</td></tr>
+                </tbody>
+            </table>
+        </div>
         {% else %}
         <h2 style="color: #00008b">Recent Activities</h2>
-        <table class="table">
-            <thead>
-            <tr>
-                <th>Date</th>
-                <th>Activities</th>
-            </tr>
-            </thead>
-            <tbody>
-                <tr><td>2025.3</td><td>Presented at the internal research progress report meeting.</td></tr>
-                <tr><td>2025.1</td><td>Presented at the Nakanoshima Robot Challenge Symposium.</td></tr>
-                <tr><td>2024.11</td><td>Participated in the Nakanoshima Robot Challenge Extra Challenge @ ATC.</td></tr>
-            </tbody>
-        </table>
+        <div class="table-container">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Activities</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr><td>2025.3</td><td>Presented at the internal research progress report meeting.</td></tr>
+                    <tr><td>2025.1</td><td>Presented at the Nakanoshima Robot Challenge Symposium.</td></tr>
+                    <tr><td>2024.11</td><td>Participated in the Nakanoshima Robot Challenge Extra Challenge @ ATC.</td></tr>
+                </tbody>
+            </table>
+        </div>
         {% endif %}
     </div>
 
@@ -39,15 +43,6 @@
         {% else %}
         <h2 style="color: #00008b">Recent Posts</h2>
         {% endif %}
-        <!-- <a class="twitter-timeline" 
-            href="https://twitter.com/ricknon22" 
-            data-tweet-limit="3" 
-            data-lang="ja"
-            data-chrome="noheader nofooter"
-            data-width="100%" 
-            data-height="500">
-            Tweets by @ricknon22
-        </a> -->
         <a class="twitter-timeline" href="https://twitter.com/ricknon22?ref_src=twsrc%5Etfw">Tweets by ricknon22</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </div>
 </section>
