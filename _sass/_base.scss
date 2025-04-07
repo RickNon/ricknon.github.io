@@ -31,6 +31,8 @@ table {
         border: 1px solid #ccc;
         padding: 0.5rem 1rem;
         text-align: left;
+        white-space: normal;    
+        word-break: break-word; 
     }
 
     th {
@@ -56,6 +58,5 @@ table {
 .twitter-timeline {
     border: 1px solid #ccc;
     border-radius: 8px;
-    overflow: hidden;
     margin-left: 2rem;
   }
