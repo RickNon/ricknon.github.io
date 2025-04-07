@@ -35,6 +35,11 @@ table {
         word-break: break-word; 
     }
 
+    td:first-child, th:first-child {
+        white-space: nowrap;
+        word-break: normal;
+    }
+
     th {
         background-color: #f5f5f5;
         font-weight: bold;
