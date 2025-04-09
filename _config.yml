@@ -9,6 +9,7 @@ github_username:  RickNon
 # Build settings
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 languages: ["ja", "en"]
 defaults:
   - scope:
