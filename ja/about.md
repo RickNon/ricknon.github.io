@@ -2,7 +2,7 @@
 layout: default
 title: About
 lang: ja
-permalink: /ja/about/
+permalink: /about/
 ---
 
 {% include profile.html %}
