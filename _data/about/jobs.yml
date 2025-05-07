@@ -10,7 +10,7 @@
     ja: 神戸大学大学院工学研究科
     en: Graduate School of Engineering, Kobe University
   job:
-    ja: TA（プログラミング演習Ⅲ）
+    ja: ティーチングアシスタント（プログラミング演習Ⅲ）
     en: Teaching Assistant (Programming Exercise III)
   period: 2024
 
@@ -21,3 +21,20 @@
     ja: 収蔵品のデジタル化とデータ処理，資料整理等
     en: Digitalization and data processing of collections, document organization, etc.
   period: 2022～
+
+- title:
+    ja: （インターンシップ）北洋電機株式会社 R&D室
+    en: (Internship) HOKUYO AUTOMATIC CO.,LTD. Rsearch & Development Dept.
+  job:
+    ja: ROS/ROS2を使った点群の平面検出に関する取り組み
+    en: Efforts on plane detection of point cloud using ROS/ROS2
+  period: 2024
+
+- title:
+    ja: （インターンシップ）三菱電機株式会社 先端総合技術研究所 ロボティクス技術部
+    en: (Internship) Mitsubishi Electric Corporation, Advanced Technology R&D Center, Robotics Department
+  job:
+    ja: ロボット-エレベーター連携システムの開発実習
+    en: Development training of robot-elevator collaborative system
+  period: 2024
+  
