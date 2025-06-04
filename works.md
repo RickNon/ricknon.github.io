@@ -2,7 +2,7 @@
 layout: default
 title: Works
 lang: ja
-permalink: /ja/works/
+permalink: /works/
 ---
 
 {% include profile.html %}

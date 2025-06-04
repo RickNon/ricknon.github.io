@@ -3,14 +3,20 @@
     <h1 class="set-title"></h1>
     <nav class="site-nav">
       <ul>
-        <li><a href="/{{ page.lang }}/" style="font-weight: bold;">Home</a></li>
-        <li><a href="/{{ page.lang }}/about/" style="font-weight: bold;">About</a></li>
-        <li><a href="/{{ page.lang }}/works/" style="font-weight: bold;">Works</a></li>
+        <li>
+          <a href="{% if page.lang == 'en' %}/en/{% else %}/{% endif %}">Home</a>
+        </li>
+        <li>
+          <a href="{% if page.lang == 'en' %}/en/about/{% else %}/about/{% endif %}">About</a>
+        </li>
+        <li>
+          <a href="{% if page.lang == 'en' %}/en/works/{% else %}/works/{% endif %}">Works</a>
+        </li>
         <li class="lang-switch">
           {% if page.lang == 'ja' %}
-            <a href="{{ page.url | replace_first: '/ja', '/en' | relative_url }}">English</a>
+            <a href="/en{{ page.url }}">English</a>
           {% else %}
-            <a href="{{ page.url | replace_first: '/en', '/ja' | relative_url }}">日本語</a>
+            <a href="{{ page.url | replace_first: '/en', '' }}">日本語</a>
           {% endif %}
         </li>
       </ul>

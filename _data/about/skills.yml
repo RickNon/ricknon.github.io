@@ -1,12 +1,12 @@
 - title: Python
   skill: 
-    ja: 研究や業務で多く使用．ROSやアルゴリズム開発，データ処理等で使用経験がある．
+    ja: 研究や業務で多く使用．ROS/ROS2やアルゴリズム開発，データ処理等で使用経験がある．
     en: Used in research and work. Experience in using it for ROS, algorithm development, and data processing etc.
   year: 2020～
 
 - title: C/C++
   skill: 
-    ja: 主に研究室内メカトロ演習で使用．Pythonの方が得意．
+    ja: 主に研究室内メカトロ演習や研究にて使用．
     en: Mainly used in the Mechatronics Exercise in the laboratory. I am better at Python.
   year: 2019～
 
@@ -18,8 +18,8 @@
 
 - title: ROS/ROS2
   skill: 
-    ja: 研究室内メカトロ演習やインターンでROSを使用．ROS2の勉強中．
-    en: Used ROS in the Mechatronics Exercise in the laboratory and during internship. Studying ROS2.
+    ja: 研究でROS2を使用．研究室内メカトロ演習やインターンでROSを使用．
+    en: Used ROS2 in research. Used ROS in the Mechatronics Exercise and during internship. 
   year: 2023～
 
 - title: Others

@@ -2,7 +2,7 @@
 layout: default
 title: home
 lang: ja
-permalink: /ja/
+permalink: /
 ---
 
 {% include profile.html %}
