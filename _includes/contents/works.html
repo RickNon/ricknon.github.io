@@ -21,7 +21,11 @@
             <span class="pub-title">{{ pub.title[page.lang] }}</span>
             <div class="pub-details">
                 <span class="pub-authors">{{ pub.authors[page.lang] }}</span><br>
-                <span class="pub-meta">{{ pub.journal[page.lang] }}, {{ pub.year }}. <a href="{{ pub.doi }}" target="_blank">LINK</a></span>
+                {% if pub.doi %}
+                    <span class="pub-meta">{{ pub.journal[page.lang] }}, {{ pub.year }}. <a href="{{ pub.doi }}" target="_blank">LINK</a></span>
+                {% else %}
+                    <span class="pub-meta">{{ pub.journal[page.lang] }}, {{ pub.year }}</span>
+                {% endif %}
             </div>
             </li>
         {% endfor %}
@@ -41,7 +45,11 @@
                 <span class="pub-title">{{ pub.title[page.lang] }}</span>
                 <div class="pub-details">
                     <span class="pub-authors">{{ pub.authors[page.lang] }}</span><br>
-                    <span class="pub-meta">{{ pub.journal[page.lang] }}, {{ pub.year }}. <a href="{{ pub.doi }}" target="_blank">LINK</a></span>
+                    {% if pub.doi %}
+                        <span class="pub-meta">{{ pub.journal[page.lang] }}, {{ pub.year }}. <a href="{{ pub.doi }}" target="_blank">LINK</a></span>
+                    {% else %}
+                        <span class="pub-meta">{{ pub.journal[page.lang] }}, {{ pub.year }}</span>
+                    {% endif %}
                 </div>
             </li>
         {% endfor %}
@@ -61,7 +69,11 @@
                 <span class="pub-title">{{ pub.title[page.lang] }}</span>
                 <div class="pub-details">
                     <span class="pub-authors">{{ pub.authors[page.lang] }}</span><br>
-                    <span class="pub-meta">{{ pub.journal[page.lang] }}, {{ pub.year }}. <a href="{{ pub.doi }}" target="_blank">LINK</a></span>
+                    {% if pub.doi %}
+                        <span class="pub-meta">{{ pub.journal[page.lang] }}, {{ pub.year }}. <a href="{{ pub.doi }}" target="_blank">LINK</a></span>
+                    {% else %}
+                        <span class="pub-meta">{{ pub.journal[page.lang] }}, {{ pub.year }}</span>
+                    {% endif %}
                 </div>
             </li>
         {% endfor %}
@@ -81,7 +93,11 @@
                 <span class="pub-title">{{ pub.title[page.lang] }}</span>
                 <div class="pub-details">
                     <span class="pub-authors">{{ pub.authors[page.lang] }}</span><br>
-                    <span class="pub-meta">{{ pub.journal[page.lang] }}, {{ pub.year }}. <a href="{{ pub.doi }}" target="_blank">LINK</a></span>
+                    {% if pub.doi %}
+                        <span class="pub-meta">{{ pub.journal[page.lang] }}, {{ pub.year }}. <a href="{{ pub.doi }}" target="_blank">LINK</a></span>
+                    {% else %}
+                        <span class="pub-meta">{{ pub.journal[page.lang] }}, {{ pub.year }}</span>
+                    {% endif %}
                 </div>
             </li>
         {% endfor %}
