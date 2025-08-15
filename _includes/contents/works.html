@@ -23,7 +23,7 @@
                 <span class="pub-authors">{{ pub.authors[page.lang] }}</span><br>
                 {%- capture pub_links -%}
                     {%- if pub.doi -%}<a href="{{ pub.doi }}" target="_blank">LINK</a>{%- endif -%}
-                    {%- if pub.doi and pub.pdf -%} {%- endif -%}
+                    {%- if pub.doi and pub.pdf %} {% endif -%}
                     {%- if pub.pdf -%}<a href="{{ pub.pdf | relative_url }}" target="_blank" rel="noopener">View PDF</a>{%- endif -%}
                 {%- endcapture -%}
                 <span class="pub-meta">{{ pub.journal[page.lang] }}, {{ pub.year }}{% if pub_links != blank %}. {{ pub_links }}{% endif %}</span>
@@ -48,7 +48,7 @@
                     <span class="pub-authors">{{ pub.authors[page.lang] }}</span><br>
                     {%- capture pub_links -%}
                         {%- if pub.doi -%}<a href="{{ pub.doi }}" target="_blank">LINK</a>{%- endif -%}
-                        {%- if pub.doi and pub.pdf -%} {%- endif -%}
+                        {%- if pub.doi and pub.pdf %} {% endif -%}
                         {%- if pub.pdf -%}<a href="{{ pub.pdf | relative_url }}" target="_blank" rel="noopener">View PDF</a>{%- endif -%}
                     {%- endcapture -%}
                     <span class="pub-meta">{{ pub.journal[page.lang] }}, {{ pub.year }}{% if pub_links != blank %}. {{ pub_links }}{% endif %}</span>
@@ -73,7 +73,7 @@
                     <span class="pub-authors">{{ pub.authors[page.lang] }}</span><br>
                     {%- capture pub_links -%}
                         {%- if pub.doi -%}<a href="{{ pub.doi }}" target="_blank">LINK</a>{%- endif -%}
-                        {%- if pub.doi and pub.pdf -%} {%- endif -%}
+                        {%- if pub.doi and pub.pdf %} {% endif -%}
                         {%- if pub.pdf -%}<a href="{{ pub.pdf | relative_url }}" target="_blank" rel="noopener">View PDF</a>{%- endif -%}
                     {%- endcapture -%}
                     <span class="pub-meta">{{ pub.journal[page.lang] }}, {{ pub.year }}{% if pub_links != blank %}. {{ pub_links }}{% endif %}</span>
@@ -98,7 +98,7 @@
                     <span class="pub-authors">{{ pub.authors[page.lang] }}</span><br>
                     {%- capture pub_links -%}
                         {%- if pub.doi -%}<a href="{{ pub.doi }}" target="_blank">LINK</a>{%- endif -%}
-                        {%- if pub.doi and pub.pdf -%} {%- endif -%}
+                        {%- if pub.doi and pub.pdf %} {% endif -%}
                         {%- if pub.pdf -%}<a href="{{ pub.pdf | relative_url }}" target="_blank" rel="noopener">View PDF</a>{%- endif -%}
                     {%- endcapture -%}
                     <span class="pub-meta">{{ pub.journal[page.lang] }}, {{ pub.year }}{% if pub_links != blank %}. {{ pub_links }}{% endif %}</span>
