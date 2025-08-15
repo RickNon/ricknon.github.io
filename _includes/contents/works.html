@@ -21,16 +21,11 @@
             <span class="pub-title">{{ pub.title[page.lang] }}</span>
             <div class="pub-details">
                 <span class="pub-authors">{{ pub.authors[page.lang] }}</span><br>
-                {% if pub.doi %}
-                    <span class="pub-meta">{{ pub.journal[page.lang] }}, {{ pub.year }}. <a href="{{ pub.doi }}" target="_blank">LINK</a></span>
-                {% else %}
-                    <span class="pub-meta">{{ pub.journal[page.lang] }}, {{ pub.year }}</span>
-                {% endif %}
-                {% if pub.pdf %}
-                    <p class="work-links">
-                        <a href="{{ pub.pdf | relative_url }}" target="_blank" rel="noopener">View PDF</a>
-                    </p>
-                {%- endif %}
+                {%- capture pub_links -%}
+                    {%- if pub.doi -%}<a href="{{ pub.doi }}" target="_blank">LINK</a>{%- endif -%}
+                    {%- if pub.pdf -%}<a href="{{ pub.pdf | relative_url }}" target="_blank" rel="noopener">View PDF</a>{%- endif -%}
+                {%- endcapture -%}
+                <span class="pub-meta">{{ pub.journal[page.lang] }}, {{ pub.year }}{% if pub_links != blank %}. {{ pub_links }}{% endif %}</span>
             </div>
             </li>
         {% endfor %}
@@ -50,11 +45,11 @@
                 <span class="pub-title">{{ pub.title[page.lang] }}</span>
                 <div class="pub-details">
                     <span class="pub-authors">{{ pub.authors[page.lang] }}</span><br>
-                    {% if pub.doi %}
-                        <span class="pub-meta">{{ pub.journal[page.lang] }}, {{ pub.year }}. <a href="{{ pub.doi }}" target="_blank">LINK</a></span>
-                    {% else %}
-                        <span class="pub-meta">{{ pub.journal[page.lang] }}, {{ pub.year }}</span>
-                    {% endif %}
+                    {%- capture pub_links -%}
+                        {%- if pub.doi -%}<a href="{{ pub.doi }}" target="_blank">LINK</a>{%- endif -%}
+                        {%- if pub.pdf -%}<a href="{{ pub.pdf | relative_url }}" target="_blank" rel="noopener">View PDF</a>{%- endif -%}
+                    {%- endcapture -%}
+                    <span class="pub-meta">{{ pub.journal[page.lang] }}, {{ pub.year }}{% if pub_links != blank %}. {{ pub_links }}{% endif %}</span>
                 </div>
             </li>
         {% endfor %}
@@ -74,11 +69,11 @@
                 <span class="pub-title">{{ pub.title[page.lang] }}</span>
                 <div class="pub-details">
                     <span class="pub-authors">{{ pub.authors[page.lang] }}</span><br>
-                    {% if pub.doi %}
-                        <span class="pub-meta">{{ pub.journal[page.lang] }}, {{ pub.year }}. <a href="{{ pub.doi }}" target="_blank">LINK</a></span>
-                    {% else %}
-                        <span class="pub-meta">{{ pub.journal[page.lang] }}, {{ pub.year }}</span>
-                    {% endif %}
+                    {%- capture pub_links -%}
+                        {%- if pub.doi -%}<a href="{{ pub.doi }}" target="_blank">LINK</a>{%- endif -%}
+                        {%- if pub.pdf -%}<a href="{{ pub.pdf | relative_url }}" target="_blank" rel="noopener">View PDF</a>{%- endif -%}
+                    {%- endcapture -%}
+                    <span class="pub-meta">{{ pub.journal[page.lang] }}, {{ pub.year }}{% if pub_links != blank %}. {{ pub_links }}{% endif %}</span>
                 </div>
             </li>
         {% endfor %}
@@ -98,11 +93,11 @@
                 <span class="pub-title">{{ pub.title[page.lang] }}</span>
                 <div class="pub-details">
                     <span class="pub-authors">{{ pub.authors[page.lang] }}</span><br>
-                    {% if pub.doi %}
-                        <span class="pub-meta">{{ pub.journal[page.lang] }}, {{ pub.year }}. <a href="{{ pub.doi }}" target="_blank">LINK</a></span>
-                    {% else %}
-                        <span class="pub-meta">{{ pub.journal[page.lang] }}, {{ pub.year }}</span>
-                    {% endif %}
+                    {%- capture pub_links -%}
+                        {%- if pub.doi -%}<a href="{{ pub.doi }}" target="_blank">LINK</a>{%- endif -%}
+                        {%- if pub.pdf -%}<a href="{{ pub.pdf | relative_url }}" target="_blank" rel="noopener">View PDF</a>{%- endif -%}
+                    {%- endcapture -%}
+                    <span class="pub-meta">{{ pub.journal[page.lang] }}, {{ pub.year }}{% if pub_links != blank %}. {{ pub_links }}{% endif %}</span>
                 </div>
             </li>
         {% endfor %}
