@@ -1,4 +1,15 @@
 - title:
+    ja: Efficient Global Path Planning with Polygonal Proximity Map: A Geometric Approach for Mobile Robots
+    en: Efficient Global Path Planning with Polygonal Proximity Map: A Geometric Approach for Mobile Robots
+  authors:
+    ja: R.Nonomura, Y.Tazaki, H.Nagano, Y.Yokokohji
+    en: R.Nonomura, Y.Tazaki, H.Nagano, Y.Yokokohji
+  journal:
+    ja: The 25th International Conference of Control, Automation and Systems (ICCAS 2025)
+    en: The 25th International Conference of Control, Automation and Systems (ICCAS 2025)
+  year: 2025
+
+- title:
     ja: 近接点の幾何学的性質に基づく自由領域の抽出と二次元グラフ地図構築
     en: Extraction of Free Space and Construction of 2D Graph Maps Based on Geometric Properties of Proximity Points
   authors:
