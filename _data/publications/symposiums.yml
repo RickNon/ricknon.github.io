@@ -1,15 +1,4 @@
 - title:
-    ja: 中之島ロボットチャレンジ2023参加レポート
-    en: Report on Nakanoshima Robot Challenge 2023
-  authors:
-    ja: 野々村陸大, 田﨑勇一
-    en: R.Nonomura, Y.Tazaki
-  journal:
-    ja: 中之島ロボットチャレンジシンポジウム
-    en: Nakanoshima Robot Challenge Symposium
-  year: 2024
-
-- title:
     ja: 近接点を用いた多角形地図の構築とナビゲーションへ向けた取り組み
     en: Construction of Polygonal Maps Using Proximity Points and Efforts Towards Navigation
   authors:
@@ -19,3 +8,14 @@
     ja: 中之島ロボットチャレンジシンポジウム
     en: Nakanoshima Robot Challenge Symposium
   year: 2025
+
+- title:
+    ja: 中之島ロボットチャレンジ2023参加レポート
+    en: Report on Nakanoshima Robot Challenge 2023
+  authors:
+    ja: 野々村陸大, 田﨑勇一
+    en: R.Nonomura, Y.Tazaki
+  journal:
+    ja: 中之島ロボットチャレンジシンポジウム
+    en: Nakanoshima Robot Challenge Symposium
+  year: 2024
