@@ -1,4 +1,26 @@
 - title:
+    ja: 凸多角形状自由領域を有するポーズグラフ地図を用いた経路計画
+    en: Path Planning with Pose Graph Maps Associated with Convex Polygonal Free Space
+  authors:
+    ja: 野々村陸大, 田﨑勇一, 横小路泰義
+    en: R.Nonomura, Y.Tazaki, Y.Yokokohji
+  journal:
+    ja: 第26回計測自動制御学会システムインテグレーション部門講演会
+    en: The 26th SICE System Integration Division Conference
+  year: 2025
+
+- title:
+    ja: 屋内環境における多階層構造を考慮した地図構築
+    en: Mapping Considering Multifloor Building in Indoor Environment
+  authors:
+    ja: 山口達矢，野々村陸大, 田﨑勇一, 横小路泰義
+    en: T.Yamaguchi, R.Nonomura, Y.Tazaki, Y.Yokokohji
+  journal:
+    ja: 第26回計測自動制御学会システムインテグレーション部門講演会
+    en: The 26th SICE System Integration Division Conference
+  year: 2025
+
+- title:
     ja: Efficient Global Path Planning with Polygonal Proximity Map; A Geometric Approach for Mobile Robots
     en: Efficient Global Path Planning with Polygonal Proximity Map; A Geometric Approach for Mobile Robots
   authors:
