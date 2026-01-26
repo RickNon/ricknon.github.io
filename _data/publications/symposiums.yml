@@ -1,4 +1,15 @@
 - title:
+    ja: 近接点ポーズグラフに基づく経路計画と高さ情報を考慮した地図構築
+    en: Path Planning and Map Construction Considering Height Information Based on Pose-Graph with Proximity Points
+  authors:
+    ja: 野々村陸大, 山口達矢, 三木大輔, Ting Jeng Bei, 田﨑勇一
+    en: R.Nonomura, T.Yamaguchi, D.Miki, J.B.Ting, Y.Tazaki
+  journal:
+    ja: 中之島ロボットチャレンジシンポジウム
+    en: Nakanoshima Robot Challenge Symposium
+  year: 2026
+
+- title:
     ja: 近接点を用いた多角形地図の構築とナビゲーションへ向けた取り組み
     en: Construction of Polygonal Maps Using Proximity Points and Efforts Towards Navigation
   authors:

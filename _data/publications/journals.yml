@@ -5,8 +5,7 @@
     ja: 野々村陸大, 田﨑勇一, 永野光, 横小路泰義
     en: R.Nonomura, Y.Tazaki, H.Nagano, Y.Yokokohji
   journal: 
-    ja: 日本ロボット学会誌（採択済）
-    en: The Journal of the Robotics Society of Japan (Accepted)
-  doi: https://www.rsj.or.jp/pub/jrsj/advpub/250604-11.html
-  year: 2025
-  pdf: /assets/docs/rsj2025.pdf
+    ja: 日本ロボット学会誌, 44巻, 1号, pp.84-93
+    en: The Journal of the Robotics Society of Japan, Vol.44, No.1, pp.84-93
+  doi: https://doi.org/10.7210/jrsj.44.84
+  year: 2026
