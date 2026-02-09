@@ -106,4 +106,25 @@
             </li>
         {% endfor %}
     </ol>
+
+    p></p>
+    <h2 style="color: #00008b">
+        {% if page.lang == 'ja' %}
+            受賞
+        {% else %}
+            Awards
+        {% endif %}
+    </h2>
+    {% assign awards = site.data.publications.awards %}
+    <ol class="pub-list" reversed start="{{ awards | size }}">
+        {% for award in awards %}
+            <li>
+                <span class="pub-title">{{ award.title[page.lang] }}</span>
+                <div class="pub-details">
+                    <span class="pub-authors">{{ award.award-name[page.lang] }}</span><br>
+                    <span class="pub-meta">{{ award.years }}</span>
+                </div>
+            </li>
+        {% endfor %}
+    </ol>
 </div>
