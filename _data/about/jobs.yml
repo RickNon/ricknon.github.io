@@ -6,6 +6,14 @@
     en: Student Research Assistant
   period: 2024～
 
+- title: 
+    ja: 神戸大学高等教育推進機構 教育質向上推進部
+    en: Kobe University
+  job:
+    ja: 学生研究補佐員
+    en: Student Research Assistant
+  period: 2026～
+
 - title:
     ja: 神戸大学大学院工学研究科
     en: Graduate School of Engineering, Kobe University
@@ -24,7 +32,7 @@
 
 - title:
     ja: （インターンシップ）北洋電機株式会社 R&D室
-    en: (Internship) HOKUYO AUTOMATIC CO.,LTD. Rsearch & Development Dept.
+    en: (Internship) HOKUYO AUTOMATIC CO.,LTD. Research & Development Dept.
   job:
     ja: ROS/ROS2を使った点群の平面検出に関する取り組み
     en: Efforts on plane detection of point cloud using ROS/ROS2

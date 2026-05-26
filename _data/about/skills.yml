@@ -6,8 +6,8 @@
 
 - title: C/C++
   skill: 
-    ja: 研究室内メカトロ演習や研究，業務にて使用経験あり．
-    en: Experience in using it for Mechatronics Exercise, research, and work.
+    ja: 研究や業務で多く使用．ROS/ROS2やアルゴリズム開発で使用経験がある．
+    en: Used in research and work. Experience in using it for ROS, algorithm development.
   year: 2019～
 
 - title: Swift
@@ -18,8 +18,8 @@
 
 - title: ROS/ROS2
   skill: 
-    ja: 研究でROS2を使用．研究室内メカトロ演習やインターンでROSを使用．
-    en: Used ROS2 in research. Used ROS in the Mechatronics Exercise and during internship. 
+    ja: 研究や研究やインターンで使用．
+    en: Used in research and internship.
   year: 2023～
 
 - title: Others
