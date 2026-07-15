@@ -1,4 +1,15 @@
 - title:
+    ja: 三次元自由空間を保持する凸多面体を用いた地図構築
+    en: Map Construction Using Convex Polyhedra Holding 3D Free Space
+  authors:
+    ja: 野々村陸大, 三木大輔, 田﨑勇一, 横小路泰義
+    en: R.Nonomura, D.Miki, Y.Tazaki, Y.Yokokohji
+  journal:
+    ja: ロボティクス・メカトロニクス講演会
+    en: ROBOMECH Conference
+  year: 2026
+  
+- title:
     ja: 凸多角形状自由領域を有するポーズグラフ地図を用いた経路計画
     en: Path Planning with Pose Graph Maps Associated with Convex Polygonal Free Space
   authors:
