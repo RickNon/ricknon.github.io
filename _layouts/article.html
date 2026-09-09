@@ -1,0 +1,41 @@
+---
+layout: blog
+---
+
+{% assign current_series = nil %}
+{% if page.series_id %}
+  {% assign current_series = site.series | where: 'series_id', page.series_id | where: 'published', true | first %}
+{% endif %}
+
+<article class="blog-article">
+  <header class="article-header">
+    {% if current_series %}
+      <p class="article-series">
+        <a href="{{ current_series.url | relative_url }}">
+          {{ current_series.title | escape }}
+        </a>
+      </p>
+    {% endif %}
+
+    <h1>{{ page.title | escape }}</h1>
+
+    {% if page.description %}
+      <p class="article-description">
+        {{ page.description | escape }}
+      </p>
+    {% endif %}
+
+    {% if page.date %}
+      <p class="article-meta">
+        公開日：
+        <time datetime="{{ page.date | date: '%Y-%m-%d' }}">
+          {{ page.date | date: '%Y-%m-%d' }}
+        </time>
+      </p>
+    {% endif %}
+  </header>
+
+  <div class="article-body">
+    {{ content }}
+  </div>
+</article>
