@@ -1,0 +1,114 @@
+.blog-page main {
+  max-width: 46rem;
+  margin: 2.5rem auto 4rem;
+  padding: 0 1.25rem;
+}
+
+.blog-content {
+  font-size: 1.0625rem;
+  line-height: 1.9;
+  color: #262626;
+  text-align: left;
+  line-break: strict;
+  overflow-wrap: anywhere;
+
+  h1, h2, h3, h4 {
+    line-height: 1.55;
+    font-weight: 700;
+  }
+
+  h1 {
+    margin: 0 0 1.25rem;
+    font-size: clamp(1.75rem, 4vw, 2.25rem);
+  }
+
+  h2 {
+    margin: 3rem 0 1rem;
+    font-size: 1.45em;
+  }
+
+  h3 {
+    margin: 2rem 0 0.75rem;
+    font-size: 1.2em;
+  }
+
+  h4 {
+    margin: 1.5rem 0 0.5rem;
+    font-size: 1.05em;
+  }
+
+  p {
+    margin: 0 0 0.9em;
+    line-height: inherit;
+  }
+
+  > p,
+  .article-body > p,
+  .series-introduction > p {
+    text-indent: 1em;
+
+    &.no-indent {
+      text-indent: 0;
+    }
+  }
+
+  .article-header,
+  .series-header {
+    margin-bottom: 2.5rem;
+  }
+
+  .article-body > :first-child,
+  .series-introduction > :first-child {
+    margin-top: 0;
+  }
+
+  .article-meta {
+    font-size: 0.875em;
+    color: #59636e;
+  }
+
+  .blog-navigation {
+    margin-bottom: 1.5rem;
+    font-size: 0.9em;
+  }
+
+  ul, ol {
+    margin: 1em 0;
+    padding-left: 1.6em;
+  }
+
+  li {
+    margin: 0.4em 0;
+  }
+
+  li > p {
+    margin: 0.35em 0;
+  }
+
+  a {
+    color: #004067;
+    text-underline-offset: 0.18em;
+  }
+
+  pre {
+    margin: 1.5rem 0;
+    padding: 1rem;
+    overflow-x: auto;
+    white-space: pre;
+    overflow-wrap: normal;
+    font-size: 0.9em;
+    line-height: 1.65;
+    background-color: #f6f8fa;
+  }
+}
+
+@media (max-width: 640px) {
+  .blog-page main {
+    margin-top: 1.5rem;
+    padding: 0 1rem;
+  }
+
+  .blog-content {
+    font-size: 1rem;
+  }
+}
