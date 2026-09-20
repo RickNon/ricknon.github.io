@@ -1,3 +1,8 @@
+{% assign nav_root = '/' %}
+{% if page.lang == 'en' %}
+  {% assign nav_root = '/en/' %}
+{% endif %}
+
 <header class="site-header">
   <div class="container">
     <h1 class="set-title"></h1>
@@ -12,13 +17,18 @@
         <li>
           <a href="{% if page.lang == 'en' %}/en/works/{% else %}/works/{% endif %}">Works</a>
         </li>
-        <li class="lang-switch">
-          {% if page.lang == 'ja' %}
-            <a href="/en{{ page.url }}">English</a>
-          {% else %}
-            <a href="{{ page.url | replace_first: '/en', '' }}">日本語</a>
-          {% endif %}
+        <li>
+          <a href="{{ '/blog/' | relative_url }}">Blog</a>
         </li>
+        {% unless page.section == "blog" %}
+          <li class="lang-switch">
+            {% if page.lang == 'ja' %}
+              <a href="/en{{ page.url }}">English</a>
+            {% else %}
+              <a href="{{ page.url | replace_first: '/en', '' }}">日本語</a>
+            {% endif %}
+          </li>
+        {% endunless %}
       </ul>
     </nav>
   </div>

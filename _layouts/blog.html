@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<div class="blog-content">
+  {% unless page.url == '/blog/' %}
+    <nav class="blog-navigation" aria-label="blog-nav">
+      <a href="{{ '/blog/' | relative_url }}">ブログ一覧へ</a>
+    </nav>
+  {% endunless %}
+
+  {{ content }}
+</div>
