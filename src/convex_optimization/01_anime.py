@@ -573,7 +573,7 @@ class ConvexVsNonconvex(Scene):
         )
 
         conclusion = MathTex(
-            r"\text{Every local optimum is global on convex set}",
+            r"\text{Every local optimum is global in convex optimization}",
             color=TEXT_COLOR,
             font_size=38,
         ).to_edge(DOWN)
