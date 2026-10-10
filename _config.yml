@@ -1,19 +1,66 @@
-
-
 title: Rikuto Nonomura
 description: Rikuto Nonomura, 野々村 陸大
 copyright: (c) Rikuto Nonomura
 twitter_username: ricknon22
 github_username:  RickNon
 
+url: "https://ricknon.github.io"
+baseurl: ""
+
 # Build settings
 plugins:
   - jekyll-feed
   - jekyll-sitemap
 languages: ["ja", "en"]
+
+# markdown settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+collections:
+  articles:
+    output: true
+    permalink: /blog/:path/
+
+  series:
+    output: true
+    permalink: /blog/series/:name/
+
 defaults:
   - scope:
       path: ""
     values:
       layout: default
       lang: ja
+
+  - scope:
+      path: "blog"
+      type: pages
+    values:
+      layout: blog
+      section: blog
+      lang: ja
+
+  - scope:
+      path: ""
+      type: articles
+    values:
+      layout: article
+      section: blog
+      lang: ja
+      math: false
+      toc: true
+      published: true
+
+  - scope:
+      path: ""
+      type: series
+    values:
+      layout: series
+      section: blog
+      lang: ja
+      published: true

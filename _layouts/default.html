@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html lang="ja">
-{% include head.html %}
-<body>
+<html lang="{{ page.lang | default: 'ja' | escape }}">
+  {% include head.html %}
+
+  <body{% if page.section == 'blog' %} class="blog-page"{% endif %}>
     {% include header.html %}
+
     <main>
-        {{ content }}
+      {{ content }}
     </main>
+
     {% include footer.html %}
-</body>
+  </body>
 </html>

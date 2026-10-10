@@ -1,0 +1,39 @@
+---
+layout: blog
+---
+
+<section class="blog-series">
+  <header class="series-header">
+    <h1>{{ page.title | escape }}</h1>
+
+    {% if page.description %}
+      <p>{{ page.description | escape }}</p>
+    {% endif %}
+  </header>
+
+  <div class="series-introduction">
+    {{ content }}
+  </div>
+
+  {% assign series_articles = site.articles | where: 'series_id', page.series_id | where: 'published', true | sort: 'order' %}
+
+  <h2>記事一覧</h2>
+
+  {% if series_articles.size > 0 %}
+    <ol class="series-articles">
+      {% for article in series_articles %}
+        <li value="{{ article.order }}">
+          <a href="{{ article.url | relative_url }}">
+            {{ article.title | escape }}
+          </a>
+
+          {% if article.description %}
+            <p>{{ article.description | escape }}</p>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ol>
+  {% else %}
+    <p>準備中</p>
+  {% endif %}
+</section>

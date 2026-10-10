@@ -3,3 +3,8 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+
+src/.venv
+src/media
+src/assets
+__pycache__

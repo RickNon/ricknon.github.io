@@ -2,8 +2,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
+    <!-- <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}"> -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&amp;display=swap">
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    {% if page.section == 'blog' %}
+        <link rel="stylesheet" href="{{ '/assets/css/blog.css' | relative_url }}">
+    {% endif %}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    {% if page.math %}
+        <!-- Load MathJax only for pages that use mathematical notation. -->
+        <script defer src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js"></script>
+    {% endif %}
     <meta name="google-site-verification" content="V048_UQ_UfOT9X2k0Yi3FZyw3lJGEk-tY8iQX-OuLFk" />
 </head>
