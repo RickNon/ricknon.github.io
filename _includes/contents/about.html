@@ -6,7 +6,7 @@
             2001年生まれ．静岡県静岡市出身．<br>
             神戸大学大学院工学研究科機械工学専攻 機能ロボット学研究室所属．<br>
             ロボットの<span class="highlight">軽量な環境認識や自律移動手法</span> について研究．<br>
-            趣味はサッカーとF1を見ること，バイクに乗ること．
+            趣味はサッカー観戦とツーリング．
         </p>
         {% else %}
         <h1 style="color: #00008b">About</h1>
@@ -116,5 +116,24 @@
             {% endfor %}
         </ol>
     </div>
+    
+    {% if site.data.about.favorites.size > 0 %}
+    <div class="about-container">
+        {% if page.lang == 'ja' %}
+        <h2 style="color: #00008b">お気に入りの写真</h2>
+        {% else %}
+        <h2 style="color: #00008b">Favorite Photos</h2>
+        {% endif %}
+        <div class="favorite-gallery">
+            {% for photo in site.data.about.favorites %}
+            <figure>
+                <img src="{{ photo.image | relative_url }}" alt="{{ photo.caption[page.lang] | escape }}" loading="lazy">
+                <figcaption>{{ photo.caption[page.lang] | escape }}</figcaption>
+            </figure>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+
 </section>
   
